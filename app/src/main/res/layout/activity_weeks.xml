@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="20sp"
+        android:lineSpacingMultiplier="1.1"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始第1课"
+        android:textSize="30sp"
+        android:id="@+id/startButton1"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始第2课"
+        android:textSize="30sp"
+        android:id="@+id/startButton2"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始第3课"
+        android:textSize="30sp"
+        android:id="@+id/startButton3"
+        />
+</LinearLayout>
